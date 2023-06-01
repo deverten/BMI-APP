@@ -1,0 +1,165 @@
+<nav>
+  <div class="container mx-auto px-6 py-5 flex justify-between items-center">
+    <a class="font-bold text-2xl lg:text-4xl text-dark-800" href="#"> BMI </a>
+    <div class="block lg:hidden">
+      <button
+        class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none"
+      >
+        <svg
+          class="fill-current h-3 w-3"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>Menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+      </button>
+    </div>
+    <div class="hidden lg:block">
+      <ul class="inline-flex">
+        <li><a class="px-4 font-bold" href="/">Home</a></li>
+        <li><a class="px-4 hover:text-gray-800" href="#">About</a></li>
+        <li><a class="px-4 hover:text-gray-800" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="container mx-auto px-6 p-10">
+  <div class="flex items-center flex-wrap mb-20">
+    <div class="w-full md:w-1/2 pl-10 bg-sky-700 p-5 rounded">
+      <h1 class="text-5xl text-white font-bold mb-10">
+        Body Mass Index Calculator
+      </h1>
+      <p class="text-gray-300 mb-8">
+        Better understand your weight in realtion to your height using our body
+        mass index (BM) calculator. While BMI is not the sole determinant of a
+        healthy weight , it offers a valuable starting point to evaluate your
+        overall health and well-being.
+      </p>
+      <!-- </div> -->
+    </div>
+    <form class="w-full md:w-1/2 pl-10">
+      <p class="text-2xl text-gray-600 font-bold mb-8 mx-8">
+        Enter your details below:
+      </p>
+
+      <div class="flex flex-wrap mx-6 mb-6">
+        <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+          <label
+            class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+            for="grid-first-name"
+          >
+            Height
+          </label>
+          <input
+            class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+            id="grid-first-name"
+            type="text"
+            placeholder="cm"
+          />
+          <!-- <p class="text-red-500 text-xs italic">Please fill out this field.</p> -->
+        </div>
+        <div class="w-full md:w-1/2 px-3">
+          <label
+            class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+            for="grid-last-name"
+          >
+            Weight
+          </label>
+          <input
+            class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+            id="grid-last-name"
+            type="text"
+            placeholder="kg"
+          />
+        </div>
+        <button
+          class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-3 mx-4 rounded"
+          type="button"
+        >
+          Calculate BMI
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section class="container mx-auto px-6 p-10">
+  <div class="flex items-center flex-wrap mb-20">
+    <div class="w-full md:w-1/2">
+      <img
+        src="../assets/images/doctor-checking-patient-in-the-private-ward-3323724-2790953.png"
+        alt="Reporting"
+      />
+    </div>
+    <div class="w-full md:w-1/2 pl-10">
+      <h4 class="text-5xl text-gray-800 font-bold mb-5">
+        What yout BMI result means
+      </h4>
+      <p class="text-gray-600 mb-8">
+        A BMI range of 18.5 to 24.9 is considered a 'healthy weight.'
+        Maintaining a healthy weight may lower your chances of experiencing
+        health issues later on, such as obesity and type 2 diabetes. Aim for a
+        nutritious diet with reduced fat and sugar content, incorporating ample
+        fruits and vegetables. Additionally, strive for regular physical
+        activity ideally about 30 minutes daily for five days a week.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-gray-100">
+  <div class="container mx-auto px-6 py-20">
+    <div class="flex flex-wrap">
+      <div class="w-full md:w-1/3 px-2 mb-4">
+        <div class="bg-white rounded shadow py-2">
+          <img
+            src="../assets/images/icons8-sauce-48.png"
+            class="px-6 mb-3"
+            alt=""
+          />
+          <h4 class="text-3xl text-gray-800 font-bold mb-5 px-6">
+            Healthy eating
+          </h4>
+          <p class="text-gray-800 text-base px-6 mb-5">
+            Healthy eating promotes weight control, disease prevention, better
+            digestion, immunity, mental clarity, and mood.
+          </p>
+        </div>
+      </div>
+      <div class="w-full md:w-1/3 px-2 mb-4">
+        <div class="bg-white rounded shadow py-2">
+          <img
+            src="../assets/images/icons8-gym-48.png"
+            class="px-6 mb-3"
+            alt=""
+          />
+          <h4 class="text-3xl text-gray-800 font-bold mb-5 px-6">
+            Regular exercise
+          </h4>
+          <p class="text-gray-800 text-base px-6 mb-5">
+            Exercise improves fitness, aids weight control, elevates mood, and
+            reduces disease risk, fostering wellness and longevity.
+          </p>
+        </div>
+      </div>
+      <div class="w-full md:w-1/3 px-2 mb-4">
+        <div class="bg-white rounded shadow py-2">
+          <img
+            src="../assets/images/icons8-sleep-48.png"
+            class="px-6 mb-3"
+            alt=""
+          />
+          <h4 class="text-3xl text-gray-800 font-bold mb-5 px-6">
+            Adequate sleep
+          </h4>
+          <p class="text-gray-800 text-base px-6 mb-5">
+            Sleep enhances mental clarity, emotional stability, and physical
+            wellness, promoting overall restoration and rejuvenation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
